@@ -20,5 +20,16 @@ namespace backtracking
             };
 
         }
+        static void print_board(List<List<int>> list)
+        {
+            if (list == null)
+            {
+                Console.WriteLine("There is no solution");
+            }
+            else
+            {
+
+            }
+        }
     }
 }
