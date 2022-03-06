@@ -1,0 +1,15 @@
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\bin\Debug\net6.0\Backtracking.exe
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\bin\Debug\net6.0\Backtracking.deps.json
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\bin\Debug\net6.0\Backtracking.runtimeconfig.json
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\bin\Debug\net6.0\Backtracking.dll
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\bin\Debug\net6.0\Backtracking.pdb
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\Backtracking.csproj.AssemblyReference.cache
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\Backtracking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\Backtracking.AssemblyInfoInputs.cache
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\Backtracking.AssemblyInfo.cs
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\Backtracking.csproj.CoreCompileInputs.cache
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\Backtracking.dll
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\refint\Backtracking.dll
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\Backtracking.pdb
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\Backtracking.genruntimeconfig.cache
+C:\Users\Maria\Documents\Skóli\Onn 3\Backtracking\Backtracking\obj\Debug\net6.0\ref\Backtracking.dll

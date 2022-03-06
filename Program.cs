@@ -28,8 +28,31 @@ namespace backtracking
             }
             else
             {
-
+                print_line(list[0]);
+                print_line(list[1]);
+                print_line(list[2]);
+                print_line(list[3]);
+                print_line(list[4]);
+                print_line(list[5]);
+                print_line(list[6]);
+                print_line(list[7]);
+                print_line(list[8]);
             }
         }
-    }
+        static void print_line(List<int> list)
+        {
+            List<string> print = new List<string>();
+            foreach (int item in list)
+            {
+                if (item == 0)
+                {
+                    print.Add(" ");
+                }
+                else
+                {
+                    print.Add(item.ToString());
+                }
+            }
+        }
+}
 }
