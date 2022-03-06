@@ -54,5 +54,29 @@ namespace backtracking
                 }
             }
         }
+        static List<int> find_zero(List<List<int>> list)
+        {
+            List<int> ret = new List<int> { 0, 0 };
+            bool found = false;
+
+            do
+            {
+                if (list[ret[0]][ret[1]] == 0)
+                {
+                    found = true;
+                }
+                else
+                {
+                    ret[1]++;
+                    if (ret[1] > 8)
+                    {
+                        ret[0]++;
+                        ret[1] = 0;
+                    }
+                }
+            
+             } while (ret[0] < list.Count && !found);
+               return ret;
+        }
 }
 }
