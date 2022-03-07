@@ -19,6 +19,9 @@ namespace backtracking
             new List<int> { 0, 0, 0, 0, 8, 0, 0, 7, 9 },
             };
 
+            print_board(board);
+            Console.WriteLine("");
+
         }
         static void print_board(List<List<int>> list)
         {
@@ -77,6 +80,44 @@ namespace backtracking
             
              } while (ret[0] < list.Count && !found);
                return ret;
+        }
+        static List<List<int>> Solve(List<List<int>> board)
+        {
+            List<int> zero = find_zero(board);
+            {
+                if (zero[0] >= board.Count)
+            {
+                return board;
+            }
+                for (int i = 1; i < 10; i++)
+                {
+                    if (is_valid(board, zero[0], zero[1], i))
+                    {
+                        board[zero[0]][zero[1]] = i;
+                        var solution = Solve(board);
+                        if (solution != null)
+                        {
+                            return solution;
+                        }
+                        else board[zero[0]][zero[1]] = 0;
+                    }
+                }
+                return null;
+            }
+        }
+        static bool is_valid(List<List<int>> board, int row, int col, int value)
+        {
+            if (board[row].Contains(value))
+            {
+                return false;
+            }
+            foreach (List<int> list in board)
+            {
+                if (list[col] == value)
+                {
+                    return false;
+                }
+            }
         }
 }
 }
