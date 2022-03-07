@@ -118,6 +118,38 @@ namespace backtracking
                     return false;
                 }
             }
+            List<int> square = new List<int>();
+            int square_col = 0;
+            int square_row = 0;
+            if (row > 2)
+            {
+                square_row = 3;
+            }
+            if (row > 5)
+            {
+                square_row = 6;
+            }
+            if (col > 2)
+            {
+                square_col = 3;
+            }
+            if (col > 5)
+            {
+                square_col = 6;
+            }
+            for (int i = square_row; i < (square_row + 3); i++)
+            {
+                for (int j = square_col; j < (square_col + 3); j++)
+                {
+                    square.Add(board[i][j]);
+                }
+            }
+            if (square.Contains(value))
+            {
+                return false;
+            }
+            return true;
         }
+    }
 }
-}
+
