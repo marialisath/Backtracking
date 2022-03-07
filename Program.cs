@@ -27,7 +27,7 @@ namespace backtracking
         {
             if (list == null)
             {
-                Console.WriteLine("There is no solution");
+                Console.WriteLine("There is no solution ya bum");
             }
             else
             {
@@ -80,18 +80,18 @@ namespace backtracking
                         ret[1] = 0;
                     }
                 }
-            
-             } while (ret[0] < list.Count && !found);
-               return ret;
+
+            } while (ret[0] < list.Count && !found);
+            return ret;
         }
         static List<List<int>> Solve(List<List<int>> board)
         {
             List<int> zero = find_zero(board);
             {
                 if (zero[0] >= board.Count)
-            {
-                return board;
-            }
+                {
+                    return board;
+                }
                 for (int i = 1; i < 10; i++)
                 {
                     if (is_valid(board, zero[0], zero[1], i))
@@ -124,25 +124,25 @@ namespace backtracking
             List<int> square = new List<int>();
             int square_col = 0;
             int square_row = 0;
-            if (row > 2)
+                if (row > 2)
             {
                 square_row = 3;
             }
-            if (row > 5)
+                if (row > 5)
             {
                 square_row = 6;
             }
-            if (col > 2)
+                if (col > 2)
             {
                 square_col = 3;
             }
-            if (col > 5)
+                if (col > 5)
             {
                 square_col = 6;
             }
-            for (int i = square_row; i < (square_row + 3); i++)
+                for (int i = square_row; i < (square_row + 3); i++)
             {
-                for (int j = square_col; j < (square_col + 3); j++)
+                    for (int j = square_col; j < (square_col + 3); j++)
                 {
                     square.Add(board[i][j]);
                 }
