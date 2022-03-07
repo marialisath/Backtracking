@@ -56,6 +56,9 @@ namespace backtracking
                     print.Add(item.ToString());
                 }
             }
+            Console.Write($"| {print[0]} {print[1]} {print[2]} ");
+            Console.Write($"| {print[3]} {print[4]} {print[5]} ");
+            Console.WriteLine($"| {print[6]} {print[7]} {print[8]} |");
         }
         static List<int> find_zero(List<List<int>> list)
         {
